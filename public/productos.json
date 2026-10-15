@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "Tarjetas descartables",
+    "categoria": "Tarjetas",
+    "precio": 3000,
+    "imagen": "https://placehold.co/400x400?text=Tarjetas",
+    "descripcion": "Tarjetas de papelería descartable en medidas 3x3, 4x4, 5x5 y 6x6 cm. Disponibles en formato redondo o cuadrado.",
+    "stock": 30
+  },
+  {
+    "id": 2,
+    "nombre": "Stickers descartables",
+    "categoria": "Stickers",
+    "precio": 2500,
+    "imagen": "https://placehold.co/400x400?text=Stickers",
+    "descripcion": "Stickers de papelería descartable en medidas 3x3, 4x4, 5x5 y 6x6 cm. Disponibles en formato redondo o cuadrado.",
+    "stock": 30
+  },
+  {
+    "id": 3,
+    "nombre": "Tarjetas personales",
+    "categoria": "Tarjetas",
+    "precio": 4000,
+    "imagen": "https://placehold.co/400x400?text=Tarjetas+Personales",
+    "descripcion": "Tarjetas personales de 9x5 cm, ideales para tu emprendimiento o para dar a conocer tu marca.",
+    "stock": 40
+  },
+  {
+    "id": 4,
+    "nombre": "Topper para tortas",
+    "categoria": "Toppers",
+    "precio": 3800,
+    "imagen": "https://placehold.co/400x400?text=Topper+Torta",
+    "descripcion": "Topper personalizado para tortas con el nombre o la frase que elijas.",
+    "stock": 15
+  },
+  {
+    "id": 5,
+    "nombre": "Caja sorpresa",
+    "categoria": "Cajas",
+    "precio": 9800,
+    "imagen": "https://placehold.co/400x400?text=Caja+Sorpresa",
+    "descripcion": "Caja sorpresa armada con detalles de papelería creativa. Un regalo listo para dar.",
+    "stock": 8
+  },
+  {
+    "id": 6,
+    "nombre": "Fotos polaroid",
+    "categoria": "Fotografías",
+    "precio": 2000,
+    "imagen": "https://placehold.co/400x400?text=Polaroid",
+    "descripcion": "Fotos estilo polaroid en 3 medidas a elección. Ideales para decorar o regalar.",
+    "stock": 50
+  },
+  {
+    "id": 7,
+    "nombre": "Fotografías impresas",
+    "categoria": "Fotografías",
+    "precio": 1500,
+    "imagen": "https://placehold.co/400x400?text=Fotografias",
+    "descripcion": "Impresión de tus fotografías en papel fotográfico de calidad.",
+    "stock": 100
+  },
+  {
+    "id": 8,
+    "nombre": "Neceser de papel fotográfico",
+    "categoria": "Neceseres",
+    "precio": 7500,
+    "imagen": "https://placehold.co/400x400?text=Neceser",
+    "descripcion": "Neceser hecho a mano con papel fotográfico. Un accesorio único y diferente.",
+    "stock": 10
+  }
+]

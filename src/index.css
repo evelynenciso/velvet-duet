@@ -1,0 +1,265 @@
+:root {
+  --ciruela: #5b2a4e;
+  --rosa: #e8b4c8;
+  --rosa-claro: #f8e6ee;
+  --crema: #fffaf5;
+  --texto: #2f2430;
+  --sombra: 0 4px 14px rgba(91, 42, 78, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: var(--crema);
+  color: var(--texto);
+  line-height: 1.5;
+}
+
+a {
+  color: var(--ciruela);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 20px;
+  min-height: 60vh;
+}
+
+main h2 {
+  margin-bottom: 20px;
+  color: var(--ciruela);
+}
+
+/* Header */
+.header {
+  background: var(--ciruela);
+  color: white;
+  text-align: center;
+  padding: 24px 20px;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+}
+
+.header p {
+  color: var(--rosa);
+}
+
+/* NavBar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  background: var(--rosa-claro);
+  padding: 14px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: var(--sombra);
+}
+
+.navbar a {
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: background 0.2s;
+}
+
+.navbar a:hover {
+  background: var(--rosa);
+}
+
+.cart-count {
+  background: var(--ciruela);
+  color: white;
+  border-radius: 50%;
+  padding: 2px 8px;
+  font-size: 0.85rem;
+}
+
+/* Lista de productos */
+.item-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 24px;
+}
+
+.item {
+  background: white;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: var(--sombra);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: transform 0.2s;
+}
+
+.item:hover {
+  transform: translateY(-4px);
+}
+
+.item img {
+  border-radius: 12px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.item h3 {
+  font-size: 1.05rem;
+}
+
+.item p:nth-of-type(1) {
+  color: #8a7385;
+  font-size: 0.85rem;
+}
+
+.item p:nth-of-type(2) {
+  font-weight: 700;
+  color: var(--ciruela);
+  font-size: 1.1rem;
+}
+
+.item a {
+  margin-top: auto;
+  text-align: center;
+  background: var(--ciruela);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.item a:hover {
+  background: #7a3a69;
+}
+
+/* Detalle */
+.detalle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: var(--sombra);
+  align-items: start;
+}
+
+.detalle img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.detalle h2 {
+  margin-bottom: 8px;
+}
+
+.detalle p {
+  margin-bottom: 12px;
+}
+
+/* Botones */
+button {
+  background: var(--ciruela);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #7a3a69;
+}
+
+/* Carrito */
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  padding: 14px;
+  border-radius: 12px;
+  box-shadow: var(--sombra);
+  margin-bottom: 14px;
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cart-item h3 {
+  flex: 1;
+}
+
+/* Footer */
+.footer {
+  background: var(--ciruela);
+  color: white;
+  padding: 32px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.footer-empresa {
+  max-width: 300px;
+}
+
+.footer-empresa h3 {
+  color: var(--rosa);
+  margin-bottom: 8px;
+}
+
+.footer-personas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.tarjeta-persona {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 14px 18px;
+  min-width: 190px;
+  font-size: 0.9rem;
+}
+
+.tarjeta-persona h4 {
+  color: var(--rosa);
+}
+
+/* Celulares */
+@media (max-width: 700px) {
+  .detalle {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-item {
+    flex-wrap: wrap;
+  }
+}
