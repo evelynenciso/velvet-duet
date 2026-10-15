@@ -23,7 +23,7 @@ body {
 }
 
 a {
-  color: var(--ciruela);
+  color: var(--bordo);
   text-decoration: none;
 }
 
@@ -41,12 +41,12 @@ main {
 
 main h2 {
   margin-bottom: 20px;
-  color: var(--ciruela);
+  color: var(--bordo);
 }
 
 /* Header */
 .header {
-  background: var(--ciruela);
+  background: var(--bordo);
   color: white;
   text-align: center;
   padding: 24px 20px;
@@ -58,16 +58,16 @@ main h2 {
 }
 
 .header p {
-  color: var(--rosa);
+  color: var(--beige);
 }
 
 .header {
-  background: var(--rosa-claro);
-  color: var(--ciruela);
+  background: var(--beige-claro);
+  color: var(--bordo);
 }
 
 .header p {
-  color: var(--ciruela);
+  color: var(--bordo);
   font-style: italic;
 }
 
@@ -82,7 +82,7 @@ main h2 {
   justify-content: center;
   align-items: center;
   gap: 32px;
-  background: var(--rosa-claro);
+  background: var(--beige-claro);
   padding: 14px;
   position: sticky;
   top: 0;
@@ -98,11 +98,11 @@ main h2 {
 }
 
 .navbar a:hover {
-  background: var(--rosa);
+  background: var(--beige);
 }
 
 .cart-count {
-  background: var(--ciruela);
+  background: var(--bordo);
   color: white;
   border-radius: 50%;
   padding: 2px 8px;
@@ -143,20 +143,20 @@ main h2 {
 }
 
 .item p:nth-of-type(1) {
-  color: #8a7385;
+  color: #8a7a6a;
   font-size: 0.85rem;
 }
 
 .item p:nth-of-type(2) {
   font-weight: 700;
-  color: var(--ciruela);
+  color: var(--bordo);
   font-size: 1.1rem;
 }
 
 .item a {
   margin-top: auto;
   text-align: center;
-  background: var(--ciruela);
+  background: var(--bordo);
   color: white;
   padding: 10px;
   border-radius: 10px;
@@ -164,7 +164,7 @@ main h2 {
 }
 
 .item a:hover {
-  background: #7a3a69;
+  background: #6D2932;
 }
 
 /* Detalle */
@@ -194,7 +194,7 @@ main h2 {
 
 /* Botones */
 button {
-  background: var(--ciruela);
+  background: var(--bordo);
   color: white;
   border: none;
   padding: 10px 18px;
@@ -206,7 +206,7 @@ button {
 }
 
 button:hover {
-  background: #7a3a69;
+  background: #6D2932;
 }
 
 /* Carrito */
@@ -234,7 +234,7 @@ button:hover {
 
 /* Footer */
 .footer {
-  background: var(--ciruela);
+  background: var(--bordo);
   color: white;
   padding: 32px 20px;
   display: flex;
@@ -248,7 +248,7 @@ button:hover {
 }
 
 .footer-empresa h3 {
-  color: var(--rosa);
+  color: var(--beige);
   margin-bottom: 8px;
 }
 
@@ -267,7 +267,7 @@ button:hover {
 }
 
 .tarjeta-persona h4 {
-  color: var(--rosa);
+  color: var(--beige);
 }
 
 /* Celulares */
