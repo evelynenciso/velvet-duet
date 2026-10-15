@@ -1,8 +1,8 @@
 function Header() {
   return (
     <header className="header">
-      <h1>Velvet Duet</h1>
-      <p>Papelería creativa</p>
+      <img src="/img/logo-velvet.png" alt="Velvet Duet" className="logo" />
+      <p>Papelería creativa & impresiones</p>
     </header>
   )
 }
