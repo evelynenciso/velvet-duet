@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "nombre": "Tarjetas descartables",
+    "nombre": "Tarjetas",
     "categoria": "Tarjetas",
     "precio": 3000,
-    "imagen": "https://placehold.co/400x400?text=Tarjetas",
+    "imagen": "/img/tarjetas/tarjeta-6x6.jpeg",
     "descripcion": "Tarjetas de papelería descartable en medidas 3x3, 4x4, 5x5 y 6x6 cm. Disponibles en formato redondo o cuadrado.",
     "stock": 30
   },
   {
     "id": 2,
-    "nombre": "Stickers descartables",
+    "nombre": "Stickers",
     "categoria": "Stickers",
     "precio": 2500,
-    "imagen": "https://placehold.co/400x400?text=Stickers",
+    "imagen": "/img/stickers/sticker-4x4.jpeg",
     "descripcion": "Stickers de papelería descartable en medidas 3x3, 4x4, 5x5 y 6x6 cm. Disponibles en formato redondo o cuadrado.",
     "stock": 30
   },
@@ -22,7 +22,7 @@
     "nombre": "Tarjetas personales",
     "categoria": "Tarjetas",
     "precio": 4000,
-    "imagen": "https://placehold.co/400x400?text=Tarjetas+Personales",
+    "imagen": "/img/tarjetas-personales/tarjeta-pers1.jpeg",
     "descripcion": "Tarjetas personales de 9x5 cm, ideales para tu emprendimiento o para dar a conocer tu marca.",
     "stock": 40
   },
@@ -31,7 +31,7 @@
     "nombre": "Topper para tortas",
     "categoria": "Toppers",
     "precio": 3800,
-    "imagen": "https://placehold.co/400x400?text=Topper+Torta",
+    "imagen": "/img/toppers/topper1.jpeg",
     "descripcion": "Topper personalizado para tortas con el nombre o la frase que elijas.",
     "stock": 15
   },
@@ -40,7 +40,7 @@
     "nombre": "Caja sorpresa",
     "categoria": "Cajas",
     "precio": 9800,
-    "imagen": "https://placehold.co/400x400?text=Caja+Sorpresa",
+    "imagen": "/img/caja-sorpresa/caja-sorpresa1.jpeg",
     "descripcion": "Caja sorpresa armada con detalles de papelería creativa. Un regalo listo para dar.",
     "stock": 8
   },
@@ -49,7 +49,7 @@
     "nombre": "Fotos polaroid",
     "categoria": "Fotografías",
     "precio": 2000,
-    "imagen": "https://placehold.co/400x400?text=Polaroid",
+    "imagen": "/img/fotos-polaroid/polaroid1.jpeg",
     "descripcion": "Fotos estilo polaroid en 3 medidas a elección. Ideales para decorar o regalar.",
     "stock": 50
   },
@@ -58,7 +58,7 @@
     "nombre": "Fotografías impresas",
     "categoria": "Fotografías",
     "precio": 1500,
-    "imagen": "https://placehold.co/400x400?text=Fotografias",
+    "imagen": "/img/fotografias/fotografia1.jpeg",
     "descripcion": "Impresión de tus fotografías en papel fotográfico de calidad.",
     "stock": 100
   },
@@ -67,7 +67,7 @@
     "nombre": "Neceser de papel fotográfico",
     "categoria": "Neceseres",
     "precio": 7500,
-    "imagen": "https://placehold.co/400x400?text=Neceser",
+    "imagen": "/img/neceser/neceser1.jpeg",
     "descripcion": "Neceser hecho a mano con papel fotográfico. Un accesorio único y diferente.",
     "stock": 10
   }

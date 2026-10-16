@@ -1,3 +1,4 @@
+/* Dps cambiar esta tipografia, encontar otro mas legible */
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Playfair+Display:ital,wght@1,700&display=swap");
 
 :root {
@@ -231,6 +232,145 @@ button:hover {
 .cart-item h3 {
   flex: 1;
 }
+
+
+/* ===== Home  ===== */
+
+/* Bienvenida */
+.home-hero {
+  background: var(--bordo);
+  color: var(--crema);
+  text-align: center;
+  padding: 64px 20px;
+  border-radius: 16px;
+  box-shadow: var(--sombra);
+  margin-bottom: 40px;
+}
+
+.home-hero h2 {
+  color: var(--crema);
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+
+.home-hero p {
+  color: var(--beige-claro);
+  font-size: 1.3rem;
+  margin-bottom: 24px;
+}
+
+/* Secciones y grilla */
+.home-seccion {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Tarjetas */
+.home-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px 18px;
+  box-shadow: var(--sombra);
+  color: var(--texto);
+  transition: transform 0.2s;
+}
+
+.home-card h3 {
+  color: var(--bordo);
+  margin: 10px 0 6px;
+  font-size: 1.1rem;
+}
+
+.home-card p {
+  font-size: 1.05rem;
+}
+
+.home-icono {
+  font-size: 2.2rem;
+}
+
+.home-card-link:hover {
+  transform: translateY(-4px);
+}
+
+/* Botones */
+.home-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 999px;
+  background: var(--crema);
+  color: var(--bordo);
+  font-weight: 600;
+  border: 2px solid var(--crema);
+}
+
+.home-btn:hover {
+  background: var(--beige-claro);
+}
+
+/* Contacto */
+.home-contacto {
+  background: var(--beige-claro);
+  border-radius: 16px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.home-contacto h2 {
+  margin-bottom: 8px;
+}
+
+.home-contacto .home-btn {
+  background: var(--bordo);
+  color: white;
+  border-color: var(--bordo);
+}
+
+.home-contacto .home-btn:hover {
+  background: #6D2932;
+}
+
+.home-contacto .home-btn-outline {
+  background: transparent;
+  color: var(--bordo);
+}
+
+.home-botones {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+/* Bloque de contacto dentro del footer */
+.footer-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  text-align: left;
+}
+
+.footer-contacto h4 {
+  color: var(--beige);
+  margin-bottom: 8px;
+}
+
+.footer-contacto p {
+  margin: 4px 0;
+}
+
+.footer-contacto a {
+  color: var(--beige-claro);
+}
+
+
 
 /* Footer */
 .footer {
